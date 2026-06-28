@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đỗ Quỳnh Thu Trang - Machine Learning Engineer & AI Researcher</title>
+    <meta name="description" content="Portfolio của Đỗ Quỳnh Thu Trang - Machine Learning Engineer, AI Research Enthusiast & Software Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-logo">THU TRANG</h1>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header" id="mainHeader">
+        <div class="header-container">
+            <a href="#" class="logo">THU TRANG</a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li>
+                        <a href="#hero" class="nav-link active">
+                            <span class="lang-vi">Trang chủ</span>
+                            <span class="lang-en">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">
+                            <span class="lang-vi">Về tôi</span>
+                            <span class="lang-en">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">
+                            <span class="lang-vi">Kỹ năng</span>
+                            <span class="lang-en">Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">
+                            <span class="lang-vi">Dự án</span>
+                            <span class="lang-en">Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">
+                            <span class="lang-vi">Liên hệ</span>
+                            <span class="lang-en">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-actions-box">
+                <!-- Language Switcher -->
+                <div class="lang-switch" id="langSwitch" aria-label="Switch Language">
+                    <span class="lang-indicator active" data-lang="vi">VI</span>
+                    <span class="divider">/</span>
+                    <span class="lang-indicator" data-lang="en">EN</span>
+                </div>
+                
+                <div class="header-cta">
+                    <a href="#contact" class="btn btn-nav">
+                        <span class="lang-vi">Hợp Tác</span>
+                        <span class="lang-en">Collab</span>
+                    </a>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle scroll-reveal-left">
+                    <span class="lang-vi">KỸ SƯ HỌC MÁY | NGHIÊN CỨU AI</span>
+                    <span class="lang-en">MACHINE LEARNING ENGINEER | AI RESEARCHER</span>
+                </span>
+                <h1 class="hero-title scroll-reveal-left">
+                    Đỗ Quỳnh <br>
+                    <span class="text-serif text-accent">Thu Trang</span>
+                </h1>
+                
+                <p class="hero-description scroll-reveal-left lang-vi">
+                    Xin chào, tôi là <strong>Thu Trang</strong>, sinh viên ngành <strong>Công nghệ thông tin</strong> với định hướng phát triển chuyên sâu trong lĩnh vực <strong>Machine Learning</strong>, <strong>Deep Learning</strong> và <strong>Artificial Intelligence</strong>. Tôi không ngừng nghiên cứu để xây dựng các giải pháp AI bền vững từ nền tảng lý thuyết toán học vững chắc.
+                </p>
+                <p class="hero-description scroll-reveal-left lang-en">
+                    Hello, I am <strong>Thu Trang</strong>, an <strong>Information Technology</strong> student specializing in <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, and <strong>Artificial Intelligence</strong>. I continuously conduct research to build sustainable AI solutions starting from solid mathematical foundations.
+                </p>
+                
+                <div class="hero-actions scroll-reveal-left">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span class="lang-vi">Xem Dự Án Nghiên Cứu</span>
+                        <span class="lang-en">View Research Projects</span>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <span class="lang-vi">Về Bản Thân</span>
+                        <span class="lang-en">About Me</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper scroll-reveal-right">
+                <div class="hero-image-frame">
+                    <img src="images/profile.jpg" alt="Đỗ Quỳnh Thu Trang Portrait" class="hero-image">
+                    <div class="frame-border"></div>
+                    <div class="frame-badge">AI / ML</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span class="scroll-text">
+                <span class="lang-vi">CUỘN ĐỂ KHÁM PHÁ</span>
+                <span class="lang-en">SCROLL TO DISCOVER</span>
+            </span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-info scroll-reveal">
+                    <span class="section-tag">
+                        <span class="lang-vi">VỀ TÔI</span>
+                        <span class="lang-en">ABOUT ME</span>
+                    </span>
+                    
+                    <h2 class="section-title lang-vi">Theo đuổi bản chất thực của thuật toán</h2>
+                    <h2 class="section-title lang-en">Pursuing the true nature of algorithms</h2>
+                    
+                    <p class="about-lead lang-vi">
+                        "Đối với tôi, lập trình không chỉ đơn thuần là viết mã nguồn mà còn là quá trình nghiên cứu, phân tích và giải quyết vấn đề bằng tư duy khoa học."
+                    </p>
+                    <p class="about-lead lang-en">
+                        "For me, programming is not simply writing source code, but a process of researching, analyzing, and solving problems using scientific thinking."
+                    </p>
+                    
+                    <p class="about-text lang-vi">
+                        Trong quá trình học tập, tôi luôn ưu tiên xây dựng kiến thức từ nền tảng. Thay vì chỉ sử dụng các thư viện có sẵn, tôi dành nhiều thời gian để tìm hiểu cách các thuật toán hoạt động bên trong, từ các phương pháp tối ưu hóa, lan truyền ngược (Backpropagation), Gradient Descent cho đến việc tự xây dựng các mô hình học máy nhằm hiểu rõ bản chất của từng thành phần.
+                    </p>
+                    <p class="about-text lang-en">
+                        During my studies, I always prioritize building knowledge from foundations. Instead of just using available libraries, I spend a lot of time understanding how algorithms work internally, from optimization methods, Backpropagation, Gradient Descent to building machine learning models from scratch to clarify the nature of each component.
+                    </p>
+                    
+                    <div class="philosophy-quote-block">
+                        <i class="fa-solid fa-quote-left quote-icon-gold"></i>
+                        <p class="philosophy-quote-text lang-vi">
+                            Tôi tin rằng một kỹ sư Machine Learning giỏi không chỉ biết sử dụng mô hình, mà cần hiểu rõ nguyên lý toán học, thuật toán và quy trình vận hành phía sau mỗi hệ thống AI. Chính sự hiểu biết nền tảng sẽ tạo nên những giải pháp bền vững và có khả năng phát triển lâu dài.
+                        </p>
+                        <p class="philosophy-quote-text lang-en">
+                            I believe that a good Machine Learning Engineer should not only know how to use models, but must thoroughly understand the mathematical principles, algorithms, and workflows behind every AI system. It is this foundational understanding that builds sustainable and long-lasting solutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-quotes scroll-reveal">
+                    <div class="objective-card">
+                        <span class="objective-tag">
+                            <span class="lang-vi">MỤC TIÊU NGHỀ NGHIỆP</span>
+                            <span class="lang-en">CAREER OBJECTIVE</span>
+                        </span>
+                        
+                        <h3 class="objective-title lang-vi">Mục tiêu nghề nghiệp</h3>
+                        <h3 class="objective-title lang-en">Career Objectives</h3>
+                        
+                        <div class="objective-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="lang-vi">Ngắn hạn: Kỹ sư Machine Learning</h4>
+                                    <h4 class="lang-en">Short-term: Machine Learning Engineer</h4>
+                                    <p class="lang-vi">Nghiên cứu, xây dựng và triển khai các hệ thống học máy (ML/DL) hiệu quả trong môi trường thực tế.</p>
+                                    <p class="lang-en">Research, build, and deploy efficient machine learning (ML/DL) systems in real-world environments.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="lang-vi">Dài hạn: Kỹ sư Nghiên cứu AI</h4>
+                                    <h4 class="lang-en">Long-term: AI Research Engineer</h4>
+                                    <p class="lang-vi">Tham gia nghiên cứu chuyên sâu các kiến trúc mô hình trí tuệ nhân tạo tiên tiến, đóng góp giải pháp AI có tính ứng dụng cao cho doanh nghiệp và cộng đồng.</p>
+                                    <p class="lang-en">Participate in deep research on advanced artificial intelligence model architectures, contributing highly applicable AI solutions for businesses and the community.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="interests-container">
+                        <h3 class="interests-title lang-vi">Lĩnh vực nghiên cứu quan tâm</h3>
+                        <h3 class="interests-title lang-en">Research Interests</h3>
+                        <div class="interests-grid">
+                            <span class="interest-tag">Machine Learning</span>
+                            <span class="interest-tag">Deep Learning</span>
+                            <span class="interest-tag">Computer Vision</span>
+                            <span class="interest-tag">Natural Language Processing</span>
+                            <span class="interest-tag">Large Language Models (LLMs)</span>
+                            <span class="interest-tag">Generative AI</span>
+                            <span class="interest-tag">Reinforcement Learning</span>
+                            <span class="interest-tag">AI Agents</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <span class="section-tag scroll-reveal">
+                <span class="lang-vi">KỸ NĂNG CHUYÊN MÔN</span>
+                <span class="lang-en">TECHNICAL SKILLS</span>
+            </span>
+            <h2 class="section-title scroll-reveal lang-vi">Bản đồ năng lực kỹ thuật</h2>
+            <h2 class="section-title scroll-reveal lang-en">Technical Skills Dashboard</h2>
+            
+            <div class="skills-dashboard scroll-reveal">
+                <!-- Nav tabs for skills categories -->
+                <div class="skills-nav">
+                    <button class="skill-tab-btn active" data-tab="languages-math">
+                        <span class="lang-vi">Ngôn ngữ & Toán học</span>
+                        <span class="lang-en">Languages & Mathematics</span>
+                    </button>
+                    <button class="skill-tab-btn" data-tab="ml-dl">
+                        <span class="lang-vi">Nền tảng ML / DL</span>
+                        <span class="lang-en">ML / DL Foundations</span>
+                    </button>
+                    <button class="skill-tab-btn" data-tab="cv-nlp">
+                        <span class="lang-vi">Ứng dụng CV & NLP</span>
+                        <span class="lang-en">CV & NLP Applications</span>
+                    </button>
+                    <button class="skill-tab-btn" data-tab="frameworks-mlops">
+                        <span class="lang-vi">Thư viện & MLOps</span>
+                        <span class="lang-en">Frameworks & MLOps</span>
+                    </button>
+                    <button class="skill-tab-btn" data-tab="web-tools">
+                        <span class="lang-vi">Web, Mobile & Công cụ</span>
+                        <span class="lang-en">Web, Mobile & Tools</span>
+                    </button>
+                </div>
+                
+                <!-- Tab panels -->
+                <div class="skills-panels">
+                    
+                    <!-- Panel 1: Languages & Math -->
+                    <div class="skill-panel active" id="languages-math">
+                        <div class="panel-grid">
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Ngôn ngữ lập trình</h3>
+                                <h3 class="lang-en">Programming Languages</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Python</span> <span class="badge-gold lang-vi">Nâng cao</span><span class="badge-gold lang-en">Advanced</span></li>
+                                    <li><span>C++</span> <span class="badge-silver lang-vi">Trung cấp</span><span class="badge-silver lang-en">Intermediate</span></li>
+                                    <li><span>Java</span> <span class="badge-silver lang-vi">Trung cấp</span><span class="badge-silver lang-en">Intermediate</span></li>
+                                    <li><span>JavaScript</span> <span class="badge-silver lang-vi">Trung cấp</span><span class="badge-silver lang-en">Intermediate</span></li>
+                                    <li><span>SQL</span> <span class="badge-silver lang-vi">Trung cấp</span><span class="badge-silver lang-en">Intermediate</span></li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Toán học cho Học máy</h3>
+                                <h3 class="lang-en">Mathematics for ML</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Linear Algebra (Đại số tuyến tính)</span></li>
+                                    <li><span>Calculus (Giải tích)</span></li>
+                                    <li><span>Probability & Statistics (Xác suất thống kê)</span></li>
+                                    <li><span>Optimization (Tối ưu hóa lồi)</span></li>
+                                    <li><span>Numerical Methods (Phương pháp tính)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 2: ML / DL Foundations -->
+                    <div class="skill-panel" id="ml-dl">
+                        <div class="panel-grid">
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Cơ sở Machine Learning</h3>
+                                <h3 class="lang-en">Machine Learning Foundations</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Supervised & Unsupervised Learning</span></li>
+                                    <li><span>Feature Engineering (Trích xuất đặc trưng)</span></li>
+                                    <li><span>Model Evaluation & Cross Validation</span></li>
+                                    <li><span>Ensemble Learning (Random Forest, XGBoost)</span></li>
+                                    <li><span>Hyperparameter Optimization</span></li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Kiến trúc Deep Learning</h3>
+                                <h3 class="lang-en">Deep Learning Architectures</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Neural Networks & Backpropagation</span></li>
+                                    <li><span>Convolutional Neural Networks (CNN)</span></li>
+                                    <li><span>Recurrent Neural Networks (RNN & LSTM)</span></li>
+                                    <li><span>Transformer Architectures & Attention Mechanisms</span></li>
+                                    <li><span>Transfer Learning & Model Fine-Tuning</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 3: CV & NLP -->
+                    <div class="skill-panel" id="cv-nlp">
+                        <div class="panel-grid">
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Thị giác máy tính (CV)</h3>
+                                <h3 class="lang-en">Computer Vision (CV)</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Image Classification (Phân loại ảnh)</span></li>
+                                    <li><span>Object Detection (YOLO, Faster R-CNN)</span></li>
+                                    <li><span>Image Segmentation (U-Net, Mask R-CNN)</span></li>
+                                    <li><span>OpenCV Image Processing</span></li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Xử lý ngôn ngữ tự nhiên (NLP)</h3>
+                                <h3 class="lang-en">Natural Language Processing (NLP)</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Text Classification & Sentiment Analysis</span></li>
+                                    <li><span>Tokenization & Text Preprocessing</span></li>
+                                    <li><span>Word Embeddings (Word2Vec, BERT)</span></li>
+                                    <li><span>Large Language Models (LLMs) & Prompting</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 4: Frameworks & MLOps -->
+                    <div class="skill-panel" id="frameworks-mlops">
+                        <div class="panel-grid">
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Thư viện AI</h3>
+                                <h3 class="lang-en">AI Frameworks</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>PyTorch</span> <span class="badge-gold lang-vi">Cốt lõi</span><span class="badge-gold lang-en">Core</span></li>
+                                    <li><span>TensorFlow & Keras</span></li>
+                                    <li><span>Scikit-learn</span></li>
+                                    <li><span>NumPy & Pandas</span></li>
+                                    <li><span>Matplotlib & Seaborn</span></li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Vận hành MLOps</h3>
+                                <h3 class="lang-en">MLOps & Infrastructure</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Git & GitHub (Version Control)</span></li>
+                                    <li><span>Docker (Containerization)</span></li>
+                                    <li><span>Linux Shell scripting</span></li>
+                                    <li><span>Model Deployment (Flask/FastAPI REST API)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 5: Web, Mobile & Dev Tools -->
+                    <div class="skill-panel" id="web-tools">
+                        <div class="panel-grid">
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Phát triển Web & Ứng dụng di động</h3>
+                                <h3 class="lang-en">Web & Mobile App Development</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>HTML & CSS (Vanilla Styling)</span></li>
+                                    <li><span>JavaScript & React.js</span></li>
+                                    <li><span>Node.js & Express.js</span></li>
+                                    <li><span>React Native (Mobile App)</span></li>
+                                    <li><span>MySQL & MongoDB</span></li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 class="lang-vi">Công cụ phát triển</h3>
+                                <h3 class="lang-en">Development Tools</h3>
+                                <ul class="skill-list-lux">
+                                    <li><span>Visual Studio Code</span></li>
+                                    <li><span>Jupyter Notebook & Google Colab</span></li>
+                                    <li><span>Figma (UI/UX Mockups)</span></li>
+                                    <li><span>Android Studio & Expo</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills & Personal Strengths -->
+    <section class="soft-skills-section">
+        <div class="section-container">
+            <span class="section-tag scroll-reveal">
+                <span class="lang-vi">KỸ NĂNG MỀM & SỞ THÍCH</span>
+                <span class="lang-en">SOFT SKILLS & INTERESTS</span>
+            </span>
+            <h2 class="section-title scroll-reveal lang-vi">Năng lực bổ trợ & Cá tính riêng</h2>
+            <h2 class="section-title scroll-reveal lang-en">Personal Strengths & Unique Traits</h2>
+            
+            <div class="soft-skills-grid scroll-reveal">
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h3 class="lang-vi">Làm việc nhóm</h3>
+                    <h3 class="lang-en">Team Collaboration</h3>
+                    <p class="lang-vi">Có khả năng làm việc nhóm hiệu quả, phối hợp đa bộ phận và giao tiếp chuyên nghiệp trong môi trường dự án.</p>
+                    <p class="lang-en">Strong teamwork skills with effective cross-functional coordination and professional communication in project environments.</p>
+                </div>
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <h3 class="lang-vi">Lên kế hoạch & Tổ chức sự kiện</h3>
+                    <h3 class="lang-en">Event Planning & Organization</h3>
+                    <p class="lang-vi">Có kinh nghiệm lên kế hoạch chương trình hoạt động, tổ chức sự kiện từ ý tưởng đến triển khai thực tế.</p>
+                    <p class="lang-en">Experienced in planning programs and organizing events from conceptualization through to execution.</p>
+                </div>
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+                    <h3 class="lang-vi">Kỹ năng MC & Thuyết trình</h3>
+                    <h3 class="lang-en">MC & Public Speaking</h3>
+                    <p class="lang-vi">Tự tin dẫn chương trình (MC), thuyết trình trước đám đông, truyền tải ý tưởng rõ ràng và cuốn hút.</p>
+                    <p class="lang-en">Confident in hosting events (MC), public speaking, and delivering engaging and articulate presentations.</p>
+                </div>
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3 class="lang-vi">Hội họa & Nghệ thuật thị giác</h3>
+                    <h3 class="lang-en">Painting & Visual Arts</h3>
+                    <p class="lang-vi">Đam mê vẽ hội họa, phát triển tư duy sáng tạo và thẩm mỹ thị giác — nền tảng bổ trợ tuyệt vời cho thiết kế UI/UX và trình bày trực quan.</p>
+                    <p class="lang-en">Passionate about painting and visual arts, nurturing creativity and aesthetic thinking — a strong complement to UI/UX design and data visualization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-container">
+            <div class="portfolio-header scroll-reveal">
+                <div>
+                    <span class="section-tag">
+                        <span class="lang-vi">DỰ ÁN NỔI BẬT</span>
+                        <span class="lang-en">SELECTED PROJECTS</span>
+                    </span>
+                    <h2 class="section-title lang-vi">Dự án nghiên cứu & ứng dụng</h2>
+                    <h2 class="section-title lang-en">Research & Application Projects</h2>
+                </div>
+            </div>
+
+            <div class="portfolio-grid scroll-reveal">
+                <!-- Project 1: Nhận dạng chó mèo -->
+                <div class="portfolio-item" data-project="project-1">
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <img src="images/project_face.png" alt="Dog Cat Recognition" class="project-image">
+                            <div class="project-overlay">
+                                <span class="view-details-text lang-vi">Click xem chi tiết dự án</span>
+                                <span class="view-details-text lang-en">Click to view project details</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">COMPUTER VISION / DEEP LEARNING</span>
+                            <h3 class="project-title lang-vi">Nhận dạng chó mèo bằng CNN</h3>
+                            <h3 class="project-title lang-en">Dog & Cat Recognition using CNN</h3>
+                            <p class="project-desc lang-vi">Xây dựng mô hình học sâu CNN để nhận dạng và phân loại ảnh chó mèo sử dụng tập dữ liệu hình ảnh.</p>
+                            <p class="project-desc lang-en">Building a deep learning CNN model to recognize and classify dog & cat images from image datasets.</p>
+                            <button class="btn btn-secondary btn-project-detail">
+                                <span class="lang-vi">Xem chi tiết & Kết quả</span>
+                                <span class="lang-en">Details & Results</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Web học trực tuyến -->
+                <div class="portfolio-item" data-project="project-2">
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <img src="images/project_elearning.png" alt="E-Learning Platform" class="project-image">
+                            <div class="project-overlay">
+                                <span class="view-details-text lang-vi">Click xem chi tiết dự án</span>
+                                <span class="view-details-text lang-en">Click to view project details</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">WEB DEVELOPMENT / FULLSTACK</span>
+                            <h3 class="project-title lang-vi">Nền tảng Web học trực tuyến</h3>
+                            <h3 class="project-title lang-en">Online Learning Web Platform</h3>
+                            <p class="project-desc lang-vi">Phát triển nền tảng web học trực tuyến với hệ thống quản lý khóa học, tương tác giữa giảng viên và học viên.</p>
+                            <p class="project-desc lang-en">Developing an online learning web platform with course management system and instructor-student interaction.</p>
+                            <button class="btn btn-secondary btn-project-detail">
+                                <span class="lang-vi">Xem chi tiết & Kết quả</span>
+                                <span class="lang-en">Details & Results</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Web thời trang mã nguồn mở -->
+                <div class="portfolio-item" data-project="project-3">
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <img src="images/project_fashion_web.png" alt="Fashion E-commerce" class="project-image">
+                            <div class="project-overlay">
+                                <span class="view-details-text lang-vi">Click xem chi tiết dự án</span>
+                                <span class="view-details-text lang-en">Click to view project details</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">E-COMMERCE / WEB DEVELOPMENT</span>
+                            <h3 class="project-title lang-vi">Web mã nguồn mở & Giỏ sản phẩm thời trang</h3>
+                            <h3 class="project-title lang-en">Open-source Fashion E-commerce Web</h3>
+                            <p class="project-desc lang-vi">Xây dựng website thương mại điện tử thời trang mã nguồn mở với chức năng giỏ hàng, quản lý sản phẩm.</p>
+                            <p class="project-desc lang-en">Building an open-source fashion e-commerce website with shopping cart and product management features.</p>
+                            <button class="btn btn-secondary btn-project-detail">
+                                <span class="lang-vi">Xem chi tiết & Kết quả</span>
+                                <span class="lang-en">Details & Results</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Ứng dụng di động Daisy Drap -->
+                <div class="portfolio-item" data-project="project-4">
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <img src="images/project_mobile.png" alt="Daisy Drap Mobile App" class="project-image">
+                            <div class="project-overlay">
+                                <span class="view-details-text lang-vi">Click xem chi tiết dự án</span>
+                                <span class="view-details-text lang-en">Click to view project details</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">MOBILE APP / REACT NATIVE</span>
+                            <h3 class="project-title lang-vi">Ứng dụng di động kinh doanh thời trang Daisy Drap</h3>
+                            <h3 class="project-title lang-en">Daisy Drap Fashion Business Mobile App</h3>
+                            <p class="project-desc lang-vi">Xây dựng ứng dụng di động kinh doanh thời trang với đầy đủ chức năng mua sắm, quản lý đơn hàng cho cửa hàng Daisy Drap.</p>
+                            <p class="project-desc lang-en">Building a fashion business mobile application with full shopping and order management features for Daisy Drap store.</p>
+                            <button class="btn btn-secondary btn-project-detail">
+                                <span class="lang-vi">Xem chi tiết & Kết quả</span>
+                                <span class="lang-en">Details & Results</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide-over Drawer for Project Details -->
+    <div class="project-drawer" id="projectDrawer">
+        <div class="drawer-overlay" id="drawerOverlay"></div>
+        <div class="drawer-content">
+            <button class="drawer-close" id="drawerClose" aria-label="Close details"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="drawer-body-container" id="drawerBodyContainer">
+                <!-- Content injected dynamically via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info scroll-reveal">
+                    <span class="section-tag">
+                        <span class="lang-vi">LIÊN HỆ</span>
+                        <span class="lang-en">CONTACT</span>
+                    </span>
+                    
+                    <h2 class="section-title lang-vi">Kết nối nghiên cứu & phát triển</h2>
+                    <h2 class="section-title lang-en">Let's build something intelligent</h2>
+                    
+                    <p class="contact-lead lang-vi">
+                        Tôi luôn sẵn sàng kết nối với các cá nhân, tổ chức và doanh nghiệp quan tâm đến lĩnh vực Trí tuệ nhân tạo, Học máy và Phát triển phần mềm. Xin cảm ứng Quý khách đã ghé thăm trang cá nhân của tôi.
+                    </p>
+                    <p class="contact-lead lang-en">
+                        I am always open to connecting with individuals, organizations, and businesses interested in Artificial Intelligence, Machine Learning, and Software Development. Thank you for visiting my portfolio.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <span class="lang-vi">Gửi email liên hệ</span>
+                                <span class="lang-en">Email me directly</span>
+                                <a href="mailto:thutrangmagrin@gmail.com">thutrangmagrin@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <span>GitHub Profile</span>
+                                <a href="https://github.com/thutrangmagrin-wq" target="_blank">github.com/thutrangmagrin-wq</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <span class="lang-vi">Số điện thoại</span>
+                                <span class="lang-en">Phone Number</span>
+                                <a href="tel:0981057467">0981057467</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box scroll-reveal">
+                    <!-- Configured to submit directly to FormSubmit.co via AJAX -->
+                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/thutrangmagrin@gmail.com" method="POST">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Portfolio Message!">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" required placeholder=" ">
+                                <label for="name" class="lang-vi">Họ và tên của bạn</label>
+                                <label for="name" class="lang-en">Your Full Name</label>
+                                <span class="input-focus-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" required placeholder=" ">
+                                <label for="email" class="lang-vi">Địa chỉ Email</label>
+                                <label for="email" class="lang-en">Email Address</label>
+                                <span class="input-focus-line"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" required placeholder=" ">
+                            <label for="subject" class="lang-vi">Tiêu đề dự án / Yêu cầu</label>
+                            <label for="subject" class="lang-en">Subject / Inquiry</label>
+                            <span class="input-focus-line"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message" class="lang-vi">Nội dung chi tiết tin nhắn...</label>
+                            <label for="message" class="lang-en">Detail your message here...</label>
+                            <span class="input-focus-line"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="lang-vi">Gửi Liên Hệ <i class="fa-solid fa-paper-plane submit-icon"></i></span>
+                            <span class="lang-en">Send Message <i class="fa-solid fa-paper-plane submit-icon"></i></span>
+                        </button>
+                        
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">TRANG.DO</a>
+                <p class="footer-tagline lang-vi">Nền tảng toán học. Giải pháp thực tế. Công nghệ bền vững.</p>
+                <p class="footer-tagline lang-en">Mathematical foundations. Practical solutions. Sustainable tech.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 class="lang-vi">Khám phá</h4>
+                <h4 class="lang-en">Explore</h4>
+                <ul>
+                    <li>
+                        <a href="#hero">
+                            <span class="lang-vi">Trang chủ</span>
+                            <span class="lang-en">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <span class="lang-vi">Về tôi</span>
+                            <span class="lang-en">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills">
+                            <span class="lang-vi">Kỹ năng</span>
+                            <span class="lang-en">Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            <span class="lang-vi">Dự án</span>
+                            <span class="lang-en">Projects</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4 class="lang-vi">Kênh thông tin</h4>
+                <h4 class="lang-en">Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="lang-vi">&copy; 2026 ĐỖ QUỲNH THU TRANG. Tất cả quyền được bảo lưu.</p>
+            <p class="lang-en">&copy; 2026 DO QUYNH THU TRANG. All Rights Reserved. Built with luxury code.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- MathJax for rendering equations in equations showcase -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
